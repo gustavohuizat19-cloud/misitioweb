@@ -206,9 +206,12 @@
                         <!-- TARJETA DE PAGO CENTRAL -->
                         <div class="bg-white rounded-[3rem] p-8 md:p-10 text-slate-950 shadow-2xl space-y-8 border-b-[12px] border-slate-100 flex flex-col items-center">
                             <div class="flex flex-col items-center gap-6">
-                                <div class="w-20 h-20 bg-yape rounded-[1.5rem] flex items-center justify-center shadow-lg transform transition-transform hover:scale-105 overflow-hidden">
-                                <img src="yape.png" alt="Yape" class="w-full h-full object-cover" onerror="this.src='https://images.unsplash.com/photo-1614680376593-902f74cf0d41?auto=format&fit=crop&q=80&w=100'; this.classList.add('opacity-')">
-                            </div>
+                               <div class="inline-block">
+    <img src="yape.png" 
+         alt="Yape" 
+         class="w-20 h-20 object-contain" 
+         onerror="this.src='https://images.unsplash.com/photo-1614680376593-902f74cf0d41?auto=format&fit=crop&q=80&w=100'">
+</div>
                                 <div class="text-center space-y-2">
                                     <p class="text-[11px] font-black text-slate-400 uppercase tracking-[0.25em]">PAGA VÍA YAPE AL:</p>
                                     <p class="text-4xl font-black tracking-tighter text-slate-950 leading-none">928 200 100</p>
@@ -261,4 +264,5 @@
         lucide.createIcons();
     </script>
 </body>
+
 </html>
